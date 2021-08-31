@@ -7,9 +7,9 @@
     --clr-card-bg: rgb(255, 255, 255); 
     --clr-card-highlight: rgb(249, 249, 253); 
 
-    --clr-primary: rgb(114, 124, 245);
-    --clr-primary-hover: rgb(97, 105, 208); 
-    --clr-primary-active: rgb(91, 99, 196);
+    --clr-primary: rgb(255, 87, 34);
+    --clr-primary-hover: hsl(14, 100%, 45%); 
+    --clr-primary-active: hsl(14, 100%, 30%);
 
     --clr-secondary: rgb(10, 207, 151);
 
@@ -35,9 +35,9 @@
         --clr-card-bg: rgb(55, 64, 74); 
         --clr-card-highlight: rgb(68, 78, 90); 
     
-        --clr-primary: rgb(114, 124, 245);
-        --clr-primary-hover: rgb(97, 105, 208); 
-        --clr-primary-active: rgb(91, 99, 196);
+        --clr-primary: rgb(255, 87, 34);
+        --clr-primary-hover: hsl(14, 100%, 45%); 
+        --clr-primary-active: hsl(14, 100%, 30%);
     
         --clr-secondary: rgb(10, 207, 151);
     
@@ -85,13 +85,13 @@ h3,
 h4{
 
     font-family: var(--ff-title);
-    color: var(--clr-primary);
+    /* color: var(--clr-primary); */
 }
 
 h1{
     font-size: 3rem;
     line-height: 3.5rem;
-    color: var(--clr-primary);
+    /* color: var(--clr-primary); */
     margin-bottom: 0;
 }
 
@@ -216,9 +216,9 @@ h1{
 
 main{
     flex-grow: 1;
-    max-width: 90rem;
+    /* max-width: 90rem;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: auto; */
 }
 
 /*#endregion End Main */
